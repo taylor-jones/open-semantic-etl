@@ -23,7 +23,7 @@ class enhance_mapping_id(object):
 
 # Change value with best/deepest mapping
 def mapping(value, mappings=None):
-    if mapping is None:
+    if mappings is None:
         mappings = {}
 
     max_match_len = -1
